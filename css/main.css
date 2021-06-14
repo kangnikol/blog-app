@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap");
+body {
+  font-family: "Helvetica", sans-serif;
+  background: #2e3440;
+  color: #d8dee9;
+}
+
+body a {
+  color: #5e81ac;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.customNav {
+  background: #3b4252;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #5e81ac;
+  margin-bottom: 60px;
+}
+
+.customNav .navbar-brand {
+  color: white;
+}
+
+.customNav .navbar-brand:hover {
+  color: #5e81ac;
+}
+
+.customNav .navbar-nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.customNav .navbar-nav .nav-link {
+  color: #d8dee9;
+}
+
+.customNav .navbar-nav .nav-link:hover {
+  color: #5e81ac;
+}
+
+.customNav .navbar-nav .active {
+  color: #5e81ac;
+}
+
+.jumbotron {
+  text-align: center;
+  background: #bf616a;
+  padding: 50px;
+}
+
+.jumbotron .pp {
+  border: 10px white;
+}
+
+.notFound {
+  text-align: center;
+}
+
+.notFound a {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.notFound h3 {
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid #5e81ac;
+  padding: 20px 0;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #81a1c1;
+  background-color: #3b4252;
+}
+/*# sourceMappingURL=main.css.map */

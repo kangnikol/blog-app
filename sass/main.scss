@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap");
+
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background: $nord0;
+  color: $nord4;
+
+  a {
+    color: $nord10;
+  }
+}
+
+p {
+  margin-top: 20px;
+}
+
+//customNavbar
+
+.customNav {
+  background: $nord1;
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid $nord10;
+  margin-bottom: 60px;
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .navbar-brand:hover {
+    color: $nord10;
+  }
+
+  .navbar-nav {
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .nav-link {
+      color: $nord4;
+    }
+
+    .nav-link:hover {
+      color: $nord10;
+    }
+
+    .active {
+      color: $nord10;
+    }
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  background: $nord11;
+  padding: 50px;
+
+  .pp {
+    border: 10px white;
+  }
+}
+
+.notFound {
+  text-align: center;
+
+  a {
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+}
+
+footer {
+  border-top: 1px solid $nord10;
+  padding: 20px 0;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: $nord9;
+  background-color: $nord1;
+}
